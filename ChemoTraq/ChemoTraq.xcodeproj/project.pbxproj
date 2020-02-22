@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD70A4372401E97200DB6015 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD70A4362401E97200DB6015 /* HomePageView.swift */; };
+		CD70A4392401E99800DB6015 /* LogPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD70A4382401E99800DB6015 /* LogPageView.swift */; };
+		CD70A43B2401E9C600DB6015 /* MedicinePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD70A43A2401E9C600DB6015 /* MedicinePageView.swift */; };
 		CDF4F41023F4DEDB00F4A7FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4F40F23F4DEDB00F4A7FC /* AppDelegate.swift */; };
 		CDF4F41223F4DEDB00F4A7FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4F41123F4DEDB00F4A7FC /* SceneDelegate.swift */; };
 		CDF4F41523F4DEDB00F4A7FC /* ChemoTraq.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDF4F41323F4DEDB00F4A7FC /* ChemoTraq.xcdatamodeld */; };
-		CDF4F41723F4DEDB00F4A7FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4F41623F4DEDB00F4A7FC /* ContentView.swift */; };
+		CDF4F41723F4DEDB00F4A7FC /* FrontPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4F41623F4DEDB00F4A7FC /* FrontPage.swift */; };
 		CDF4F41923F4DEDC00F4A7FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF4F41823F4DEDC00F4A7FC /* Assets.xcassets */; };
 		CDF4F41C23F4DEDC00F4A7FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF4F41B23F4DEDC00F4A7FC /* Preview Assets.xcassets */; };
 		CDF4F41F23F4DEDC00F4A7FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF4F41D23F4DEDC00F4A7FC /* LaunchScreen.storyboard */; };
@@ -36,11 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD70A4362401E97200DB6015 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		CD70A4382401E99800DB6015 /* LogPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogPageView.swift; sourceTree = "<group>"; };
+		CD70A43A2401E9C600DB6015 /* MedicinePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinePageView.swift; sourceTree = "<group>"; };
 		CDF4F40C23F4DEDA00F4A7FC /* ChemoTraq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemoTraq.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF4F40F23F4DEDB00F4A7FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDF4F41123F4DEDB00F4A7FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CDF4F41423F4DEDB00F4A7FC /* ChemoTraq.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChemoTraq.xcdatamodel; sourceTree = "<group>"; };
-		CDF4F41623F4DEDB00F4A7FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDF4F41623F4DEDB00F4A7FC /* FrontPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPage.swift; sourceTree = "<group>"; };
 		CDF4F41823F4DEDC00F4A7FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDF4F41B23F4DEDC00F4A7FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDF4F41E23F4DEDC00F4A7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,7 +109,10 @@
 			children = (
 				CDF4F40F23F4DEDB00F4A7FC /* AppDelegate.swift */,
 				CDF4F41123F4DEDB00F4A7FC /* SceneDelegate.swift */,
-				CDF4F41623F4DEDB00F4A7FC /* ContentView.swift */,
+				CDF4F41623F4DEDB00F4A7FC /* FrontPage.swift */,
+				CD70A4362401E97200DB6015 /* HomePageView.swift */,
+				CD70A4382401E99800DB6015 /* LogPageView.swift */,
+				CD70A43A2401E9C600DB6015 /* MedicinePageView.swift */,
 				CDF4F41823F4DEDC00F4A7FC /* Assets.xcassets */,
 				CDF4F41D23F4DEDC00F4A7FC /* LaunchScreen.storyboard */,
 				CDF4F42023F4DEDC00F4A7FC /* Info.plist */,
@@ -270,10 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD70A4392401E99800DB6015 /* LogPageView.swift in Sources */,
 				CDF4F41023F4DEDB00F4A7FC /* AppDelegate.swift in Sources */,
 				CDF4F41223F4DEDB00F4A7FC /* SceneDelegate.swift in Sources */,
-				CDF4F41723F4DEDB00F4A7FC /* ContentView.swift in Sources */,
+				CDF4F41723F4DEDB00F4A7FC /* FrontPage.swift in Sources */,
+				CD70A43B2401E9C600DB6015 /* MedicinePageView.swift in Sources */,
 				CDF4F41523F4DEDB00F4A7FC /* ChemoTraq.xcdatamodeld in Sources */,
+				CD70A4372401E97200DB6015 /* HomePageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
