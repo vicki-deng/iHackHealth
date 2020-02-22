@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDF4F41023F4DEDB00F4A7FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4F40F23F4DEDB00F4A7FC /* AppDelegate.swift */; };
+		CDF4F41223F4DEDB00F4A7FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4F41123F4DEDB00F4A7FC /* SceneDelegate.swift */; };
+		CDF4F41523F4DEDB00F4A7FC /* ChemoTraq.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDF4F41323F4DEDB00F4A7FC /* ChemoTraq.xcdatamodeld */; };
+		CDF4F41723F4DEDB00F4A7FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4F41623F4DEDB00F4A7FC /* ContentView.swift */; };
+		CDF4F41923F4DEDC00F4A7FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF4F41823F4DEDC00F4A7FC /* Assets.xcassets */; };
+		CDF4F41C23F4DEDC00F4A7FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF4F41B23F4DEDC00F4A7FC /* Preview Assets.xcassets */; };
+		CDF4F41F23F4DEDC00F4A7FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF4F41D23F4DEDC00F4A7FC /* LaunchScreen.storyboard */; };
+		CDF4F42A23F4DEDC00F4A7FC /* ChemoTraqTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4F42923F4DEDC00F4A7FC /* ChemoTraqTests.swift */; };
+		CDF4F43523F4DEDC00F4A7FC /* ChemoTraqUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4F43423F4DEDC00F4A7FC /* ChemoTraqUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDF4F42623F4DEDC00F4A7FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF4F40423F4DEDA00F4A7FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF4F40B23F4DEDA00F4A7FC;
+			remoteInfo = ChemoTraq;
+		};
+		CDF4F43123F4DEDC00F4A7FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF4F40423F4DEDA00F4A7FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF4F40B23F4DEDA00F4A7FC;
+			remoteInfo = ChemoTraq;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDF4F40C23F4DEDA00F4A7FC /* ChemoTraq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemoTraq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF4F40F23F4DEDB00F4A7FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDF4F41123F4DEDB00F4A7FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDF4F41423F4DEDB00F4A7FC /* ChemoTraq.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChemoTraq.xcdatamodel; sourceTree = "<group>"; };
+		CDF4F41623F4DEDB00F4A7FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDF4F41823F4DEDC00F4A7FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDF4F41B23F4DEDC00F4A7FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDF4F41E23F4DEDC00F4A7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDF4F42023F4DEDC00F4A7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF4F42523F4DEDC00F4A7FC /* ChemoTraqTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemoTraqTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF4F42923F4DEDC00F4A7FC /* ChemoTraqTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemoTraqTests.swift; sourceTree = "<group>"; };
+		CDF4F42B23F4DEDC00F4A7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF4F43023F4DEDC00F4A7FC /* ChemoTraqUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemoTraqUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF4F43423F4DEDC00F4A7FC /* ChemoTraqUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemoTraqUITests.swift; sourceTree = "<group>"; };
+		CDF4F43623F4DEDC00F4A7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDF4F40923F4DEDA00F4A7FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF4F42223F4DEDC00F4A7FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF4F42D23F4DEDC00F4A7FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDF4F40323F4DEDA00F4A7FC = {
+			isa = PBXGroup;
+			children = (
+				CDF4F40E23F4DEDA00F4A7FC /* ChemoTraq */,
+				CDF4F42823F4DEDC00F4A7FC /* ChemoTraqTests */,
+				CDF4F43323F4DEDC00F4A7FC /* ChemoTraqUITests */,
+				CDF4F40D23F4DEDA00F4A7FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDF4F40D23F4DEDA00F4A7FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4F40C23F4DEDA00F4A7FC /* ChemoTraq.app */,
+				CDF4F42523F4DEDC00F4A7FC /* ChemoTraqTests.xctest */,
+				CDF4F43023F4DEDC00F4A7FC /* ChemoTraqUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDF4F40E23F4DEDA00F4A7FC /* ChemoTraq */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4F40F23F4DEDB00F4A7FC /* AppDelegate.swift */,
+				CDF4F41123F4DEDB00F4A7FC /* SceneDelegate.swift */,
+				CDF4F41623F4DEDB00F4A7FC /* ContentView.swift */,
+				CDF4F41823F4DEDC00F4A7FC /* Assets.xcassets */,
+				CDF4F41D23F4DEDC00F4A7FC /* LaunchScreen.storyboard */,
+				CDF4F42023F4DEDC00F4A7FC /* Info.plist */,
+				CDF4F41323F4DEDB00F4A7FC /* ChemoTraq.xcdatamodeld */,
+				CDF4F41A23F4DEDC00F4A7FC /* Preview Content */,
+			);
+			path = ChemoTraq;
+			sourceTree = "<group>";
+		};
+		CDF4F41A23F4DEDC00F4A7FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4F41B23F4DEDC00F4A7FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDF4F42823F4DEDC00F4A7FC /* ChemoTraqTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4F42923F4DEDC00F4A7FC /* ChemoTraqTests.swift */,
+				CDF4F42B23F4DEDC00F4A7FC /* Info.plist */,
+			);
+			path = ChemoTraqTests;
+			sourceTree = "<group>";
+		};
+		CDF4F43323F4DEDC00F4A7FC /* ChemoTraqUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4F43423F4DEDC00F4A7FC /* ChemoTraqUITests.swift */,
+				CDF4F43623F4DEDC00F4A7FC /* Info.plist */,
+			);
+			path = ChemoTraqUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDF4F40B23F4DEDA00F4A7FC /* ChemoTraq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF4F43923F4DEDC00F4A7FC /* Build configuration list for PBXNativeTarget "ChemoTraq" */;
+			buildPhases = (
+				CDF4F40823F4DEDA00F4A7FC /* Sources */,
+				CDF4F40923F4DEDA00F4A7FC /* Frameworks */,
+				CDF4F40A23F4DEDA00F4A7FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChemoTraq;
+			productName = ChemoTraq;
+			productReference = CDF4F40C23F4DEDA00F4A7FC /* ChemoTraq.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDF4F42423F4DEDC00F4A7FC /* ChemoTraqTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF4F43C23F4DEDC00F4A7FC /* Build configuration list for PBXNativeTarget "ChemoTraqTests" */;
+			buildPhases = (
+				CDF4F42123F4DEDC00F4A7FC /* Sources */,
+				CDF4F42223F4DEDC00F4A7FC /* Frameworks */,
+				CDF4F42323F4DEDC00F4A7FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF4F42723F4DEDC00F4A7FC /* PBXTargetDependency */,
+			);
+			name = ChemoTraqTests;
+			productName = ChemoTraqTests;
+			productReference = CDF4F42523F4DEDC00F4A7FC /* ChemoTraqTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDF4F42F23F4DEDC00F4A7FC /* ChemoTraqUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF4F43F23F4DEDC00F4A7FC /* Build configuration list for PBXNativeTarget "ChemoTraqUITests" */;
+			buildPhases = (
+				CDF4F42C23F4DEDC00F4A7FC /* Sources */,
+				CDF4F42D23F4DEDC00F4A7FC /* Frameworks */,
+				CDF4F42E23F4DEDC00F4A7FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF4F43223F4DEDC00F4A7FC /* PBXTargetDependency */,
+			);
+			name = ChemoTraqUITests;
+			productName = ChemoTraqUITests;
+			productReference = CDF4F43023F4DEDC00F4A7FC /* ChemoTraqUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDF4F40423F4DEDA00F4A7FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = iHackHealth;
+				TargetAttributes = {
+					CDF4F40B23F4DEDA00F4A7FC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CDF4F42423F4DEDC00F4A7FC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CDF4F40B23F4DEDA00F4A7FC;
+					};
+					CDF4F42F23F4DEDC00F4A7FC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CDF4F40B23F4DEDA00F4A7FC;
+					};
+				};
+			};
+			buildConfigurationList = CDF4F40723F4DEDA00F4A7FC /* Build configuration list for PBXProject "ChemoTraq" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDF4F40323F4DEDA00F4A7FC;
+			productRefGroup = CDF4F40D23F4DEDA00F4A7FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDF4F40B23F4DEDA00F4A7FC /* ChemoTraq */,
+				CDF4F42423F4DEDC00F4A7FC /* ChemoTraqTests */,
+				CDF4F42F23F4DEDC00F4A7FC /* ChemoTraqUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDF4F40A23F4DEDA00F4A7FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF4F41F23F4DEDC00F4A7FC /* LaunchScreen.storyboard in Resources */,
+				CDF4F41C23F4DEDC00F4A7FC /* Preview Assets.xcassets in Resources */,
+				CDF4F41923F4DEDC00F4A7FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF4F42323F4DEDC00F4A7FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF4F42E23F4DEDC00F4A7FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDF4F40823F4DEDA00F4A7FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF4F41023F4DEDB00F4A7FC /* AppDelegate.swift in Sources */,
+				CDF4F41223F4DEDB00F4A7FC /* SceneDelegate.swift in Sources */,
+				CDF4F41723F4DEDB00F4A7FC /* ContentView.swift in Sources */,
+				CDF4F41523F4DEDB00F4A7FC /* ChemoTraq.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF4F42123F4DEDC00F4A7FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF4F42A23F4DEDC00F4A7FC /* ChemoTraqTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF4F42C23F4DEDC00F4A7FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF4F43523F4DEDC00F4A7FC /* ChemoTraqUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDF4F42723F4DEDC00F4A7FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF4F40B23F4DEDA00F4A7FC /* ChemoTraq */;
+			targetProxy = CDF4F42623F4DEDC00F4A7FC /* PBXContainerItemProxy */;
+		};
+		CDF4F43223F4DEDC00F4A7FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF4F40B23F4DEDA00F4A7FC /* ChemoTraq */;
+			targetProxy = CDF4F43123F4DEDC00F4A7FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDF4F41D23F4DEDC00F4A7FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDF4F41E23F4DEDC00F4A7FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDF4F43723F4DEDC00F4A7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDF4F43823F4DEDC00F4A7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDF4F43A23F4DEDC00F4A7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChemoTraq/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChemoTraq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iHackHealth.ChemoTraq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDF4F43B23F4DEDC00F4A7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChemoTraq/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChemoTraq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iHackHealth.ChemoTraq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDF4F43D23F4DEDC00F4A7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChemoTraqTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iHackHealth.ChemoTraqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChemoTraq.app/ChemoTraq";
+			};
+			name = Debug;
+		};
+		CDF4F43E23F4DEDC00F4A7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChemoTraqTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iHackHealth.ChemoTraqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChemoTraq.app/ChemoTraq";
+			};
+			name = Release;
+		};
+		CDF4F44023F4DEDC00F4A7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChemoTraqUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iHackHealth.ChemoTraqUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChemoTraq;
+			};
+			name = Debug;
+		};
+		CDF4F44123F4DEDC00F4A7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChemoTraqUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iHackHealth.ChemoTraqUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChemoTraq;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDF4F40723F4DEDA00F4A7FC /* Build configuration list for PBXProject "ChemoTraq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF4F43723F4DEDC00F4A7FC /* Debug */,
+				CDF4F43823F4DEDC00F4A7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF4F43923F4DEDC00F4A7FC /* Build configuration list for PBXNativeTarget "ChemoTraq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF4F43A23F4DEDC00F4A7FC /* Debug */,
+				CDF4F43B23F4DEDC00F4A7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF4F43C23F4DEDC00F4A7FC /* Build configuration list for PBXNativeTarget "ChemoTraqTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF4F43D23F4DEDC00F4A7FC /* Debug */,
+				CDF4F43E23F4DEDC00F4A7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF4F43F23F4DEDC00F4A7FC /* Build configuration list for PBXNativeTarget "ChemoTraqUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF4F44023F4DEDC00F4A7FC /* Debug */,
+				CDF4F44123F4DEDC00F4A7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDF4F41323F4DEDB00F4A7FC /* ChemoTraq.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDF4F41423F4DEDB00F4A7FC /* ChemoTraq.xcdatamodel */,
+			);
+			currentVersion = CDF4F41423F4DEDB00F4A7FC /* ChemoTraq.xcdatamodel */;
+			path = ChemoTraq.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDF4F40423F4DEDA00F4A7FC /* Project object */;
+}
