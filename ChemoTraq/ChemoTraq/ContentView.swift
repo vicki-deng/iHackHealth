@@ -11,30 +11,37 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Hello, World!")
+            Image("Logo")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .clipShape(Circle())
             
-            
-            Button(action: {}) {
-                Text("   Login  ")
-                    .fontWeight(.bold)
-                    .font(.title)
-                    .foregroundColor(.purple)
-                    .padding()
-                    .overlay(
-                        Capsule(style: .continuous)
-                            .stroke(Color.purple, style: StrokeStyle(lineWidth: 5))
-                    )
-            }
-            Button(action: {}) {
-                Text("Sign Up")
-                    .fontWeight(.bold)
-                    .font(.title)
-                    .foregroundColor(.purple)
-                    .padding()
-                    .overlay(
-                        Capsule(style: .continuous)
-                            .stroke(Color.purple, style: StrokeStyle(lineWidth: 5))
-                    )
+            VStack {
+                
+                
+                Button(action: {}) {
+                    Text("   Login  ")
+                        .fontWeight(.bold)
+                        .font(.title)
+                        .foregroundColor(.purple)
+                        .padding()
+                        .overlay(
+                            Capsule(style: .continuous)
+                                .stroke(Color.purple, style: StrokeStyle(lineWidth: 5))
+                        )
+                }
+                .padding()
+                Button(action: {}) {
+                    Text("Sign Up")
+                        .fontWeight(.bold)
+                        .font(.title)
+                        .foregroundColor(.purple)
+                        .padding()
+                        .overlay(
+                            Capsule(style: .continuous)
+                                .stroke(Color.purple, style: StrokeStyle(lineWidth: 5))
+                        )
+                }
             }
         }
     }
