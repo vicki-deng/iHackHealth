@@ -1,26 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
-    <entity name="Accessinfo" representedClassName="Accessinfo" syncable="YES" codeGenerationType="class"/>
-    <entity name="Basicinfo" representedClassName="Basicinfo" syncable="YES" codeGenerationType="class">
-        <attribute name="dateofbirth" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
-        <attribute name="dateofdiagnosis" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
-        <attribute name="gender" optional="YES" attributeType="String"/>
-        <attribute name="uid" optional="YES" attributeType="String"/>
-        <attribute name="username" optional="YES" attributeType="String"/>
+    <entity name="Meds" representedClassName="Meds" syncable="YES" codeGenerationType="class">
+        <attribute name="dose" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="meds_end" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="meds_name" attributeType="String" defaultValueString="meds"/>
+        <attribute name="meds_start" attributeType="Date" defaultDateTimeInterval="604127760" usesScalarValueType="NO"/>
+        <attribute name="meds_time" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="meds_type" optional="YES" attributeType="String"/>
+        <attribute name="reason" optional="YES" attributeType="String"/>
+        <attribute name="unit" attributeType="String" defaultValueString="mg"/>
+        <attribute name="user_id" attributeType="String" defaultValueString="noid"/>
+        <relationship name="taken_by" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="take" inverseEntity="User"/>
     </entity>
-    <entity name="Cancerifo" representedClassName="Cancerifo" syncable="YES" codeGenerationType="class">
-        <attribute name="cid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
-        <attribute name="stageifcancer" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
-        <attribute name="typeofcancer" optional="YES" attributeType="String"/>
-        <attribute name="uid" optional="YES" attributeType="String"/>
+    <entity name="Symptom" representedClassName="Symptom" syncable="YES" codeGenerationType="class">
+        <attribute name="record_date" attributeType="Date" defaultDateTimeInterval="604125840" usesScalarValueType="NO"/>
+        <attribute name="severity" attributeType="String" defaultValueString="none"/>
+        <attribute name="type_of_symptom" attributeType="String" defaultValueString="nosymptom"/>
+        <attribute name="user_id" attributeType="String" defaultValueString="noid"/>
+        <relationship name="recorded" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="record" inverseEntity="User"/>
     </entity>
-    <entity name="Dailyinfo" representedClassName="Dailyinfo" syncable="YES" codeGenerationType="class"/>
-    <entity name="Medsinfo" representedClassName="Medsinfo" syncable="YES" codeGenerationType="class"/>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="access_of_contact" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="access_of_data" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="access_of_location" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="chemo_agreement" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="chemo_end" attributeType="Date" defaultDateTimeInterval="604127280" usesScalarValueType="NO"/>
+        <attribute name="chemo_period" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="chemo_start" attributeType="Date" defaultDateTimeInterval="604127280" usesScalarValueType="NO"/>
+        <attribute name="date_of_birth" attributeType="Date" defaultDateTimeInterval="604124940" usesScalarValueType="NO"/>
+        <attribute name="date_of_diagnosis" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="stage_of_cancer" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type_of_cancer" attributeType="String" defaultValueString="cancer"/>
+        <attribute name="type_of_drugs" attributeType="String" defaultValueString="drug"/>
+        <attribute name="user_gender" optional="YES" attributeType="String"/>
+        <attribute name="user_id" attributeType="String" defaultValueString="noid"/>
+        <attribute name="user_name" attributeType="String" defaultValueString="sweetie"/>
+        <relationship name="record" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Symptom" inverseName="recorded" inverseEntity="Symptom"/>
+        <relationship name="take" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Meds" inverseName="taken_by" inverseEntity="Meds"/>
+    </entity>
     <elements>
-        <element name="Basicinfo" positionX="-63" positionY="-18" width="128" height="118"/>
-        <element name="Cancerifo" positionX="-54" positionY="0" width="128" height="103"/>
-        <element name="Accessinfo" positionX="-36" positionY="9" width="128" height="43"/>
-        <element name="Dailyinfo" positionX="-18" positionY="27" width="128" height="43"/>
-        <element name="Medsinfo" positionX="0" positionY="45" width="128" height="43"/>
+        <element name="User" positionX="-324.171875" positionY="26.90234375" width="128" height="298"/>
+        <element name="Symptom" positionX="-116.3125" positionY="-98.87109375" width="128" height="118"/>
+        <element name="Meds" positionX="-24.94140625" positionY="299.9453125" width="128" height="193"/>
     </elements>
 </model>
